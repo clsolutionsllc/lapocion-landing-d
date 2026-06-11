@@ -455,6 +455,18 @@ footer{background:#2C3A28;color:rgba(255,255,255,.72);padding:58px 0 34px;font-f
   .ctatrust{margin-top:10px;gap:7px}
 }
 
+
+/* ===== Mobile optimization fixes ===== */
+@media(max-width:560px){
+  .compare .wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .compare table{font-size:.7rem}
+  .compare th,.compare td{padding:8px 5px}
+  .compare thead th{font-size:.62rem;letter-spacing:.01em}
+  .compare td:first-child{font-size:.7rem}
+}
+@media(max-width:680px){.foot-grid{grid-template-columns:1fr 1fr;gap:26px 20px}.foot-grid>div:first-child{grid-column:1/-1}}
+@media(max-width:380px){.foot-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.mbar-parts{display:none}}
 </style>
 </head>
 <body>
